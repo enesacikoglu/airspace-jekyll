@@ -16,6 +16,14 @@ permalink: /blog/
     </div>
   </div>
 </section>
+
+<!--Starting Twitter widget-->
+<div id="sagdasabit" style="position: absolute; right: 0px; top: 0px; z-index: 1;">
+  <a class="twitter-timeline" href="https://twitter.com/Enes_Acikoglu" data-tweet-limit="6">Tweets by Enes Acikoglu</a>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<!--End of Twitter-->
+
 {% for post in site.posts %}
 <div class="post-area">
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
