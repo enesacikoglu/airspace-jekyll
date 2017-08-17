@@ -17,6 +17,11 @@
   width:auto;
 }
 
+.CssTestimialImage img {
+  height:400px;
+  width:auto;
+}
+
 .navbar-brand {
     float: none;
     display:inline-block;
