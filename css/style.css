@@ -10,6 +10,11 @@
   margin-right:10px;	
 }
 
+.CssImage img {
+  height:50px;
+  width:auto;
+}
+
 .navbar-brand {
     float: none;
     display:inline-block;
