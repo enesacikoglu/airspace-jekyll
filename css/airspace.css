@@ -96,6 +96,13 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Slider Start
 --*/
+
+.CssImage {
+  display:inline-block;
+  vertical-align:top;
+  margin-right:10px;	
+}
+
 #slider {
   background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
